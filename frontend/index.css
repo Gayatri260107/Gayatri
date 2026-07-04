@@ -1,42 +1,58 @@
 h1{
-    color : black;
+    color : red;
 }
 #home-intro{
-    text-align : center;
-    border : 3px solid black;
+    text-align: center;
+    border: 3px solid black;
 }
 #home-intro:hover{
-    background-color: rgb(185, 185, 185);
+    background-color: lightblue;
 }
 #p2{
-    color: blue;
+    color:blue;
 }
 #nav{
+    background-color: red;
     text-align: center;
-    background-color: brown;
-    height : 25px;
-    padding-top: 5px;
+    height: 35px;
+    padding-top: 15px;
+    margin-bottom: 3px;
 }
+
 #nav a{
     margin: 0px 5px;
-    /*margin : y-axis x-axis*/
+    /*margin: y axis x axis*/
     text-decoration: none;
-    color : white;
+    color:beige;
 }
+
 #card{
-    border: 3px solid black;
-    align-items: center;
+  align-items: center;
+  margin-top: 5px;
+  border: 3px solid black;
+  width: 300px;
+  height: 580px;
+  margin: 3px auto;
+  border-radius: 8px;
 }
+
 #card-img{
-    margin : 0px auto;
-    width : 300px;
-    height : 300px;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  margin: 0px auto;
 }
-#img{
-    width : 300px;
-    height : 300px;
+
+img{
+  width: 300px;
+  height: 300px;
+  border-radius:8px;
 }
-#card h1,p{
-    text-align:center;
-    margin : 0px auto;
+
+#action{
+  text-align: center;
+  
+}
+button{
+  width:100%;
 }
